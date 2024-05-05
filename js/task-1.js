@@ -10,7 +10,7 @@ function makeTransaction(quantity, pricePerDroid, customerCredits) {
         message=`You ordered ${quantity} droids worth ${totalPrice} credits!`;
     }
 
-return message;
+    return message;
 }
 console.log(makeTransaction(5, 3000, 23000)); 
 console.log(makeTransaction(3, 1000, 15000)); 
